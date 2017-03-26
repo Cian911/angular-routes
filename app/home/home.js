@@ -13,4 +13,6 @@ angular.module('myApp.home', ['ngRoute'])
 
 .controller('HomeCtrl', [function() {
 
+  $scope.title = "Home Page";
+
 }]);
